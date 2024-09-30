@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio por Mariana Montes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+    <header class="borde head">
+        <div id="my-div"></div>
+    </header>
+    <main>
+        <h1>Experiencia en clase</h1>
+        <p>Al iniciar este curso me encontraba contenta por poder aprender, nunca había interactuado con GitHub o con Visual Studio y la verdad que no tenía la mínima idea de como crear una página web desde cero así que me encuentro bastante feliz por haber hecho este humilde portafolio, que aunque si le faltan algunas cositas y el diseño es bastante sencillo es gratificate poder haberlo hecho por mi cuenta. 
+        Espero que pues le parezca aunque sea divertido al que entre por acá.</p>
+    </main>
+<aside class="borde lado">
+  <h1>Trabajo en clase</h1>  
+ <p></p>
+</aside>
+<footer class="borde pie">
+ <p>Footer</p>
+</footer>
+<script src="JS/vivus.js"></script>
+<script>
+   new Vivus('my-div', {duration:50, type: 'scenario-sync', file:'imagenes/ilustración_animated.svg'},);
+</script>
+   <script src="https://unpkg.com/scrollreveal"></script>
+   <script>
+    ScrollReveal().reveal('.head', { delay: 10, easing: 'ease-in' });
+    ScrollReveal().reveal('.main', { delay: 10, easing: 'ease-in' });
+    ScrollReveal().reveal('.lado', { delay: 10, easing: 'ease-in' });
+    ScrollReveal().reveal('.pie', { delay: 10, easing: 'ease-in'})
+
+   </script>
+</body>
+</html>
